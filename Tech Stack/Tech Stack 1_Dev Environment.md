@@ -2,12 +2,12 @@
 
 ---
 
-### 🎮 Engine
+## 🎮 Engine
 - **Unity**: `2022.3.17f1`
 
 ---
 
-### 💻 IDE
+## 💻 IDE
 | IDE             | 버전        |
 |-----------------|-------------|
 | Visual Studio   | 2022        |
@@ -15,7 +15,7 @@
 
 ---
 
-### 🌐 Version Control
+## 🌐 Version Control
 - **GitHub**
 
 ---
