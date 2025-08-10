@@ -1,23 +1,28 @@
 # 🛠️ 최적화 (Optimization)
 
----
+
 
 ## 목차
 
-- [🌙 개요 🌙](#overview)
+- [🌙 OverView 🌙](#overview)
 - [🎨 렌더링 🎨](#rendering-optimization)
 - [🧠 메모리 🧠](#memory-optimization)
 
 ---
 
+<br>
+
 <a name="overview"></a>
 ## 🌙 OverView
 
-현 페이지에선 최적화에 적용된 기술 스택들을 소개합니다.
+현 페이지에선 최적화에 적용된 기술 스택을 소개합니다. <br>
+렌더링과 메모리의 관점을 분리해 소개하겠습니다.
 
 <br>
 
 ---
+
+<br>
 
 <a name="rendering-optimization"></a>
 ## 🎨 Rendering Optimization
@@ -128,3 +133,5 @@ C#의 async/await 문법을 활용하여 비동기 작업을 보다 간결하고
 GC 최적화는 프레임 드랍 방지에 매우 중요한 부분입니다.
 
 <br>
+
+----
