@@ -5,11 +5,12 @@
 ## 목차
 
 - [🌙 Overview 🌙](#overview)
-- [🤖 FSM (Finite State Machine) 🤖](#fsm-finite-state-machine)
+- [🤖 FSM (Finite State Machine) 🤖](#fsm)
 - [🎮 캐릭터 컨트롤러 (Character Controller) 🎮](#character-controller)
 
 ---
 
+<a name="overview"></a>
 ## 🌙 OverView
 
 현 페이지에선 플레이어를 구현하기 위해 적용된 기술 스택들을 소개합니다.
@@ -17,7 +18,7 @@
 <br>
 
 ---
-
+<a name="fsm"></a>
 ## 🤖 FSM (Finite State Machine)
 
 ### 개념
