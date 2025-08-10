@@ -4,9 +4,9 @@
 
 ## 목차
 
-- [🌙 개요 🌙](#🌙-Overview)
-- [🤖 FSM 🤖](#🤖-FSM-(Finite-State-Machine))
-- [🎮 캐릭터 컨트롤러 🎮](#🎮-캐릭터-컨트롤러-(Character Controller))
+- [🌙 Overview 🌙](#overview)
+- [🤖 FSM (Finite State Machine) 🤖](#fsm-finite-state-machine)
+- [🎮 캐릭터 컨트롤러 (Character Controller) 🎮](#character-controller)
 
 ---
 
@@ -48,7 +48,7 @@ FSM은 플레이어 행동을 여러 상태(State)로 나누고,
 
 
 
-## 🎮 캐릭터 컨트롤러 (Character Controller)
+## 🎮 Character Controller
 
 개념 :
 <br>

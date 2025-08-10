@@ -4,9 +4,9 @@
 
 ## 목차
 
-- [🌙 개요 🌙](#🌙-overview)
-- [🎨 렌더링 🎨](#🎨-rendering-optimization)
-- [🧠 메모리 🧠](#🧠-memory-optimization)
+- [🌙 개요 🌙](#overview)
+- [🎨 렌더링 🎨](#rendering-optimization)
+- [🧠 메모리 🧠](#memory-optimization)
 
 ---
 
@@ -129,4 +129,3 @@ C#의 async/await 문법을 활용하여 비동기 작업을 보다 간결하고
 GC 최적화는 프레임 드랍 방지에 매우 중요한 부분입니다.
 
 <br>
----
