@@ -4,6 +4,7 @@
 
 - [🌙 OverView 🌙](#overview)
 - [🔄 Behavior Tree 🔄](#bt)
+- [⚙️ StatController ⚙️️️](#stat)
 ---
 
 <br>
@@ -16,6 +17,7 @@
 <br>
 
 ---
+
 <a name="bt"></a>
 ## 🔄 Behavior Tree
 
@@ -42,6 +44,7 @@ Behavior Tree는 AI 의사결정을 트리 구조로 계층화하여 관리하�
 <br>
 
 ---
+
 <a name="stat"></a>
 ## ⚙️ StatController 
 
