@@ -79,12 +79,11 @@ Draw Call 수를 획기적으로 줄여 GPU 부하를 경감시킵니다.
 <a name="memory-optimization"></a>
 ## 🧠 Memory Optimization
 
-| 기술명              | 설명 (핵심)                                               |
-|---------------------|---------------------------------------------------------|
-| **Addressables**    | 리소스 비동기 로딩 및 효율적 관리로 메모리 사용 최적화            |
-| **Object Pooling**  | 오브젝트 재사용으로 할당/해제 비용 절감                        |
-| **UniTask**         | 코루틴 대비 메모리 할당과 성능 개선                            |
-| **GC 최적화**       | 박싱/언박싱 최소화, 임시 객체 생성 억제                      |
+| 기술명              | 개요                              |
+|---------------------|---------------------------------|
+| **Addressables**    | 리소스 비동기 로딩 및 효율적 관리로 메모리 사용 최적화 |
+| **Object Pooling**  | 오브젝트 재사용으로 할당/해제 비용 절감          |
+| **UniTask**         | 코루틴 대비 메모리 할당과 성능 개선            |
 
 <br>
 
@@ -100,6 +99,8 @@ Unity의 Addressables 시스템은 리소스를 비동기적으로 로드하고
 복잡한 리소스 관리도 단순화되고, 씬 전환 시 불필요한 메모리 누수를 방지하는 데 도움을 줍니다.  
 특히 대규모 프로젝트에서 효과적입니다.
 
+관련 스크립트 : [resourceManager](https://github.com/Neronem/TheLastOne_Public/blob/main/Scripts/Manager/Subs/ResourceManager.cs#L15)
+
 <br>
 
 #### Object Pooling
@@ -109,6 +110,8 @@ Unity의 Addressables 시스템은 리소스를 비동기적으로 로드하고
 가비지 컬렉션 발생 빈도를 낮출 수 있어 게임 성능이 안정됩니다.
 
 총알, 적 캐릭터, 이펙트 등 반복 사용되는 오브젝트에 자주 활용됩니다.
+
+관련 스크립트 : [ObjectPoolManager](https://github.com/Neronem/TheLastOne_Public/blob/main/Scripts/Manager/Subs/ObjectPoolManager.cs#L18)
 
 <br>
 
@@ -120,17 +123,7 @@ C#의 async/await 문법을 활용하여 비동기 작업을 보다 간결하고
 이를 통해 가비지 컬렉션 부담을 줄이고, 코드 가독성과 유지보수성도 크게 향상시킵니다.  
 코루틴으로 복잡해질 수 있는 비동기 흐름을 명확하게 표현할 수 있다는 장점도 있습니다.
 
-<br>
-
-#### GC 최적화
-
-가비지 컬렉션(GC)으로 인한 성능 저하를 최소화하기 위해,  
-박싱/언박싱을 피하고 임시 객체 생성을 줄이는 등의 노력이 필요합니다.
-
-특히 Update, FixedUpdate 함수 내에서 불필요한 객체 생성은 피해야 하며,  
-구조체 사용이나 제네릭 활용도 권장됩니다.
-
-GC 최적화는 프레임 드랍 방지에 매우 중요한 부분입니다.
+관련 스크립트 : [HackingProcess](https://github.com/Neronem/TheLastOne_Public/blob/main/Scripts/Entity/Scripts/NPC/StatControllers/Base/BaseNpcStatController.cs#L254)
 
 <br>
 
