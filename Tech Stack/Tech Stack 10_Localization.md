@@ -3,12 +3,8 @@
 ## 목차
 
 * [🌙 OverView 🌙](#-overview-)
-* [🧠 데이터/테이블 구조](#-데이터테이블-구조)
-* [🧭 런타임 플로우](#-런타임-플로우)
-* [🧩 UI 연동 패턴(텍스트오디오)](#-ui-연동-패턴텍스트오디오)
-* [🖋️ 폰트 전략](#-폰트-전략)
-* [🛠️ 주요 메서드 및 기능](#-주요-메서드-및-기능)
-* [✅ 장점](#장점)
+
+* [🌐 로컬라이제이션](#-로컬라이제이션-)
 
 ---
 
@@ -16,7 +12,7 @@
 
 ## 🌙 OverView 🌙
 
-프로젝트 전반(UI, 대화, 튜토리얼, 아이콘/로고 등)에 Unity **Localization 패키지**를 적용했습니다. 핵심은 다음과 같습니다.
+프로젝트 전반(UI, 대화, 보이스)에 Unity **Localization 패키지**를 적용했습니다. 핵심은 다음과 같습니다.
 
 * **String Table**: 모든 UI 텍스트를 키 기반으로 관리(한/영 등 다국어).
 * **Asset Table**: **AudioClip**을 언어별로 분기.
@@ -27,66 +23,33 @@
 
 <br>
 
-## 🧠 데이터/테이블 구조
+## 🌐 로컬라이제이션 
 
-* **String Table**
-  버튼/라벨/토스트/팝업/튜토리얼 등 모든 UI 텍스트를 키로 등록. 긴 문장은 **Smart String**으로 변수 삽입 가능.
+### 개념
+- 키 기반 관리: Dialogue_Stage1.AI_001/ Voice_Stage1.Pl_001 처럼 도메인·하위·키로 텍스트/애셋을 등록합니다.
+- 이벤트 드리븐 갱신: LocalizedString.StringChanged, LocalizedAsset.AssetChanged 이벤트로 로딩 완료 시점에 UI를 갱신합니다.
+- 런타임 스위칭: SelectedLocale 변경 시 전 UI가 즉시 교체, 선택 값은 PlayerPrefs로 저장/복원합니다.
+- 레이아웃·폰트 전략: 전환 직후 길이 변화 대응을 위해 페이드 아웃 → 재활성 → 레이아웃 리빌드 → 페이드 인을 표준화하고, TMP Fallback 체인으로 글리프 누락을 방지합니다.
 
-* **Asset Table**
-  * **AudioClip**: 대사 보이스(언어별 음성), 내레이션.
+### 도입 이유
+- 커스텀 대비 개발/운영 비용 절감(툴링, 이벤트, 테이블 관리가 내장)
+- 코드 수정 없이 언어 증설 가능(데이터 드리븐)
+- 전환 시 즉시성·안정성(이벤트 기반 업데이트 + 레이아웃 리빌드 루틴)
+- 문자열뿐만 아니라 보이스 클립까지 전 리소스 계층을 일괄 관리
 
-* **Addressables 연동**
-  Asset Table 항목은 Addressables와 연결되어 빌드/메모리 관리에 유리(라벨 기반 로드/언로드).
+<img width="1631" height="1080" alt="image" src="https://github.com/user-attachments/assets/223fd326-af74-456f-a119-3119a24058f8" />
+<img width="1631" height="689" alt="image" src="https://github.com/user-attachments/assets/4db520a1-aba2-41f0-af3a-ffdc67c1ef40" />
 
----
+### 🛠️ 주요 메서드 및 기능
 
-<br>
-
-## 🧭 런타임 플로우
-
-1. **부팅/초기화**
-   `PlayerPrefs`에서 저장된 Locale을 읽어 `SelectedLocale` 적용 → 첫 진입부터 올바른 언어.
-
-2. **설정 UI에서 언어 변경**
-   `ApplyLocale(localeId)` 호출 → `LocalizationSettings.SelectedLocale` 갱신.
-   모든 `LocalizedString/LocalizedAsset` 구독자들이 **StringChanged/AssetChanged** 이벤트 수신.
-
-3. **세션 저장**
-   선택한 언어를 PlayerPrefs에 저장 → 다음 실행 시 자동 복원.
-
----
-
-<br>
-
-## 🧩 UI 연동 패턴(텍스트/이미지/오디오)
-
-* **텍스트(TMP)**
-  각 컴포넌트에 `LocalizedString`을 바인딩하고 `StringChanged +=`로 값이 들어오는 시점에 `text` 갱신.
-  토스트/알림은 UIBase의 `Show()` 타이밍과 맞춰 **지연 로딩 후 표시**.
-
-* **오디오(대사 보이스)**
-  `LocalizedAsset<AudioClip>`을 DialogueUI에서 확보 → **SoundPlayer(2D)** 로 재생.
-  **클립 길이**를 이용해 타자기/페이드 타이밍 결정 → 언어마다 길이가 달라도 자연스럽게 동기화.
-
-> UI는 **UIBase 수명주기(Initialize/Show/Hide/ResetUI)** 에 맞춰 바인딩을 추가/해제하여 코루틴·오디오 누수를 방지합니다.
-
----
-
-<br>
-
-## 🖋️ 폰트 전략
-
-* **폰트(Fallback 체인)**
-  한글/영어 폰트를 모두 커버하도록 **TMP Font Asset Fallback** 구성.
-  언어가 추가되어도 같은 방식으로 구성하여 커버 가능.
-
----
-
-<br>
-
-## ✅ 장점
-
-* **개발 효율**: 문자열/애셋을 **테이블로 분리** → 언어 추가 시 코드 수정 없이 데이터만 증분.
-* **일관성**: 텍스트/보이스가 **같은 Locale**에 맞춰 **동시에 교체**.
-* **UX 품질**: 보이스 길이에 맞춘 타자기·페이드.
-* **배포/운영 비용 절감**: 하나의 빌드로 다국어 커버, 지역별 리소스 변경도 **Asset Table 교체**만으로 대응.
+| 메서드/항목                                         | 기능                                                                                                                                                     |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `SettingUI.OnEnable()`                         | 로케일 변경 이벤트를 구독하고, 언어 선택 UI 이벤트를 재바인딩한 뒤 현재 로케일과 동기화합니다.                                                                                                |
+| `SettingUI.OnDisable()`                        | 로케일 변경 이벤트 구독을 해제합니다(누수 방지).                                                                                                                           |
+| `SettingUI.OnLanguageSelectorChanged(int idx)` | 선택된 인덱스를 `LocalizationSettings.SelectedLocale`에 반영하고 PlayerPrefs에 저장합니다. 런타임에서 즉시 언어가 전환됩니다.                                                   |
+| `SettingUI.SyncLanguageSelector()`             | 현재 **SelectedLocale**을 읽어 언어 선택 UI 인덱스를 강제 동기화합니다. (언어 전환 후 화면 즉시 반영)                                                                                  |
+| `SettingUI.RegisterLanguageSelectorEvents()`   | HorizontalSelector의 각 아이템에 콜백을 등록해 인덱스 변경 시 `OnLanguageSelectorChanged`가 호출되도록 설정합니다.                                                                  |
+| `SettingUI.OnLocaleChanged(Locale)`            | 외부에서 로케일이 바뀐 경우에도 UI 인덱스를 재동기화합니다.                                                                                                                     |
+| `DialogueData.Message / voiceClip`             | 각 대사 줄은 `LocalizedString`(자막)과 `LocalizedAsset<AudioClip>`(보이스)로 구성되어 언어별로 자동 교체됩니다.                                                                   |
+| `DialogueUI.ShowSequence(List<DialogueData>)`  | 시퀀스 표시의 진입점. 페이드 준비 후 코루틴을 시작합니다. (일시정지 시 가드)                                                                                                          |
+| `DialogueUI`(시퀀스 내부 로직)                        | 자막은 `LocalizedString` 값 로딩 완료 시 출력하고, 보이스는 `LocalizedAsset<AudioClip>` 로딩 후 2D 재생해 **언어별 길이**에 맞춰 대기·타자기 타이밍을 동기화합니다. (구조는 `ShowSequence`→코루틴 흐름에 포함)  |
