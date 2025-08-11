@@ -2,7 +2,7 @@
 
 <br>
 
-![img_2.png](img_2.png)
+![img_2.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Images/img_2.png)
 
 | 클래스 | 설명 |
 |--------|------|
@@ -21,7 +21,7 @@
 
 <br>
 
-![img_3.png](img_3.png)
+![img_3.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Images/img_3.png)
 
 | 클래스 | 설명 |
 |--------|------|

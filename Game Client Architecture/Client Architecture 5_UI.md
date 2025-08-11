@@ -4,7 +4,7 @@
 
 * InGameUI 예시
 
-![img_6.png](img_6.png)
+![img_6.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Images/img_6.png)
 
 | 클래스 | 설명 |
 |--------|------|

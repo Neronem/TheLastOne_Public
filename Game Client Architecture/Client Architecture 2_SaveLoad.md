@@ -1,6 +1,6 @@
 # 👩‍💻 Save & Load
 
-![img_1.png](img_1.png)
+![img_1.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Images/img_1.png)
 
 | 클래스 | 설명 |
 |--------|------|

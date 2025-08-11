@@ -2,7 +2,7 @@
 
 <br>
 
-![img_7.png](img_7.png)
+![img_7.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Images/img_7.png)
 
 | 클래스 | 설명 |
 |--------|------|
