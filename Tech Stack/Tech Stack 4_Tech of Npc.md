@@ -22,7 +22,7 @@
 
 ### 개념
 
-![img.png](img.png)
+![img.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Images/img.png)
 
 Behavior Tree는 AI 의사결정을 트리 구조로 계층화하여 관리하는 설계 기법입니다.  
 각 노드는 조건 검사나 행동 수행 같은 역할을 담당하며, 트리 구조를 통해 복잡한 의사결정을 모듈화하고 체계적으로 처리할 수 있습니다.
