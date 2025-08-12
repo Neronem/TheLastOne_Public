@@ -9,12 +9,11 @@
 <a name="목차"></a>
 ## 목차
 
-|     [🤖  프로젝트 소개 🤖](#project)      |
-|:-----------------------------------:|
-|  [🛠️ 기술 스택 🛠️](#stack)   |
-| [🍵 클라이언트 구조 ](#client) |
-|  [🍵 트러블 슈팅 ](#tea-기술적-고민과-트러블-슈팅)  |
-|   [🥕 만든 사람들 🥕](#carrot-만든-사람들)    |
+|   [🤖  프로젝트 소개 🤖](#project)   |
+|:------------------------------:|
+|    [🛠️ 기술 스택 🛠️](#stack)     |
+|   [🔎 클라이언트 구조 🔎](#client)    |
+|     [💡 트러블 슈팅 💡](#trouble)     |
 
 <br><br>
 
@@ -55,6 +54,7 @@
 # 🛠️ 기술 스택
 #### 클릭하면 자세한 내용을 확인하실 수 있습니다!
 
+<br>
 
 [<img width="400" alt="FSM" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%201_Dev%20Environment.md)
 [<img width="400" alt="ObjectPool" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_%EC%B5%9C%EC%A0%81%ED%99%94.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%202_Optimization.md)
@@ -67,7 +67,7 @@
 
 <br><br>
 
-[🌙 목차로 돌아가기](#crescent_moon-목차)
+[🌙 목차로 돌아가기](#목차)
 
 <br><br>
 
@@ -78,6 +78,8 @@
 <a name="client"></a>
 # 🔎 클라이언트 구조
 #### 클릭하면 자세한 내용을 확인하실 수 있습니다!
+
+<br>
 
 [<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
 [<img width="400" alt="CookStep" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_6.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%202_SaveLoad.md)
@@ -101,6 +103,8 @@
 <a name="trouble"></a>
 # 💡 트러블 슈팅
 #### 클릭하면 자세한 내용을 확인하실 수 있습니다!
+
+<br>
 
 [<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_Occlusion.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Trouble%20Shooting/Trouble%20Shooting%201_Occlusion%20Culling%EA%B3%BC%20Stencil%20Renderer%20%EC%B6%A9%EB%8F%8C.md)
 [<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_TimeScale.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Trouble%20Shooting/Trouble%20Shooting%202_TimeScale%20%EB%B3%80%ED%98%95%20%EC%8B%9C%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%EC%86%8D%EB%8F%84%20%EC%A6%9D%EA%B0%80%20%EB%B2%84%EA%B7%B8.md)
