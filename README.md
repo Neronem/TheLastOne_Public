@@ -102,15 +102,15 @@
 # 💡 트러블 슈팅
 #### 클릭하면 자세한 내용을 확인하실 수 있습니다!
 
-[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
-[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_Occlusion.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Trouble%20Shooting/Trouble%20Shooting%201_Occlusion%20Culling%EA%B3%BC%20Stencil%20Renderer%20%EC%B6%A9%EB%8F%8C.md)
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_TimeScale.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Trouble%20Shooting/Trouble%20Shooting%202_TimeScale%20%EB%B3%80%ED%98%95%20%EC%8B%9C%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%EC%86%8D%EB%8F%84%20%EC%A6%9D%EA%B0%80%20%EB%B2%84%EA%B7%B8.md)
 
-[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
-[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_Build.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Trouble%20Shooting/Trouble%20Shooting%203_Build%EC%8B%9C%20%ED%94%84%EB%A6%AC%ED%8C%B9%EC%9D%98%20Material%20%EC%98%A4%EB%A5%98.md)
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_UITiming.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Trouble%20Shooting/Trouble%20Shooting%204_UI%20%EC%B4%88%EA%B8%B0%ED%99%94%20%ED%83%80%EC%9D%B4%EB%B0%8D%20%EC%98%A4%EB%A5%98.md)
 
 
 <br><br>
 
-[🌙 목차로 돌아가기](#crescent_moon-목차)
+[🌙 목차로 돌아가기](#목차)
 
 <br><br>
