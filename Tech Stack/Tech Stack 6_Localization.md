@@ -29,12 +29,12 @@
 - 키 기반 관리: Dialogue_Stage1.AI_001/ Voice_Stage1.Pl_001 처럼 도메인·하위·키로 텍스트/애셋을 등록합니다.
 - 이벤트 드리븐 갱신: LocalizedString.StringChanged, LocalizedAsset.AssetChanged 이벤트로 로딩 완료 시점에 UI를 갱신합니다.
 - 런타임 스위칭: SelectedLocale 변경 시 전 UI가 즉시 교체, 선택 값은 PlayerPrefs로 저장/복원합니다.
-- 레이아웃·폰트 전략: 전환 직후 길이 변화 대응을 위해 페이드 아웃 → 재활성 → 레이아웃 리빌드 → 페이드 인을 표준화하고, TMP Fallback 체인으로 글리프 누락을 방지합니다.
+- 폰트 전략: TMP Fallback 체인으로 글리프 누락을 방지합니다.
 
 ### 도입 이유
 - 커스텀 대비 개발/운영 비용 절감(툴링, 이벤트, 테이블 관리가 내장)
 - 코드 수정 없이 언어 증설 가능(데이터 드리븐)
-- 전환 시 즉시성·안정성(이벤트 기반 업데이트 + 레이아웃 리빌드 루틴)
+- 전환 시 즉시성·안정성(이벤트 기반 업데이트)
 - 문자열뿐만 아니라 보이스 클립까지 전 리소스 계층을 일괄 관리
 
 <img width="1631" height="1080" alt="image" src="https://github.com/user-attachments/assets/223fd326-af74-456f-a119-3119a24058f8" />
