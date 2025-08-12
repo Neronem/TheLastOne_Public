@@ -1,4 +1,6 @@
-﻿namespace _1.Scripts.Entity.Scripts.Player.StateMachineScripts.States.Air
+﻿using UnityEngine;
+
+namespace _1.Scripts.Entity.Scripts.Player.StateMachineScripts.States.Air
 {
     public class JumpState : AirState
     {
