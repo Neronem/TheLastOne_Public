@@ -23,7 +23,7 @@
         public override void Update()
         {
             base.Update();
-            if(stateMachine.Player.Controller.velocity.y <= 0) 
+            if(stateMachine.Player.Controller.velocity.y * Time.timeScale <= 0) 
                 stateMachine.ChangeState(stateMachine.FallState);
         }
     }
