@@ -127,6 +127,9 @@
 # 🧑‍🤝‍🧑 팀원 소개
 <br>
 
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_leadDesigner.png">] 
+
+
 | 이름     | 역할              | GitHub                              | Vlog                                         |
 |----------|-------------------|-----------------------------------|----------------------------------------------|
 | 김흥식   | 👑 Lead Designer   | [KImKs68](https://github.com/KImKs68)           | [Vlog](https://velog.io/@gmdtlr376/posts)    |
