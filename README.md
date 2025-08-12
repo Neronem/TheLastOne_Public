@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img_1.png" alt="img_1.png" />
+  <img src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_TheLastOne.png" alt="img_TheLastOne.png" />
 </p>
 
 <br><br>
