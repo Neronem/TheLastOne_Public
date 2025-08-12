@@ -125,9 +125,8 @@
 
 <a name="introduce"></a>
 # 🧑‍🤝‍🧑 팀원 소개
-<br>
 
-<img width="400" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Img_LeadDesginer.png"> <img width="100" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/github-logo.png"> <img width="100" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/Vlog.png">
+<br>
 
 | 이름     | 역할              | GitHub                              | Vlog                                         |
 |----------|-------------------|-----------------------------------|----------------------------------------------|
