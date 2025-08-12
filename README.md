@@ -77,19 +77,20 @@
 
 <a name="client"></a>
 # 🔎 클라이언트 구조
-#### 클릭하면 자세한 내용을 확인하실 수 있습니다!🐰
+#### 클릭하면 자세한 내용을 확인하실 수 있습니다!
 
-[<img width="400" alt="Inventory" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/2b92952d-c8d8-4e0b-a4ed-cc20454290d9">](/Trouble%20Shooting%20트러블%20슈팅/01%20인벤토리%20탭%20UI의%20구현%20방식.md)
-[<img width="400" alt="CookStep" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/b2a13a2f-df7a-468f-ba4b-04535c5531d9">](/Trouble%20Shooting%20트러블%20슈팅/02%20요리%20과정을%20검증하는%20방식.md)
-[<img width="400" alt="Popup" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/6020f70c-5460-4e67-9e83-cfee60eba9f1">](/Trouble%20Shooting%20트러블%20슈팅/03%20UIManager로%20Popup들을%20관리하는%20방식.md)
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
+[<img width="400" alt="CookStep" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_6.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%202_SaveLoad.md)
 
-### 트러블 슈팅
-[<img width="400" alt="MouseClick" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/1988b6fd-2b20-46d7-a240-afaadb32aeee">](/Trouble%20Shooting%20트러블%20슈팅/04%20마우스%20좌클릭으로%20여러가지%20동작을%20처리하는%20방법.md)
-[<img width="400" alt="CustomerTrigger" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/65f6df72-a1ac-4c7d-b8b4-ff708c88d86a">](/Trouble%20Shooting%20트러블%20슈팅/05%20손님%20AI의%20Trigger%20충돌이%20중복되는%20문제.md)
+[<img width="400" alt="Popup" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_1.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%203_Player.md)
+[<img width="400" alt="MouseClick" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_4.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%204_Enemy%20AI.md)
+
+[<img width="400" alt="CustomerTrigger" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/clinet_2.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%205_UI.md)
+[<img width="400" alt="CustomerTrigger" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_3.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%206_GameEventSystem.md)
 
 <br><br>
 
-[🌙 목차로 돌아가기](#crescent_moon-목차)
+[🌙 목차로 돌아가기](#목차)
 
 <br><br>
 
