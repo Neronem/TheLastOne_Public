@@ -51,7 +51,7 @@
 
 - [UIManager 아키텍처 바로가기](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%205_UI.md)
 
-![img_5.png](img_5.png)
+![img_5.png](img_5.png) <br>
 <sub>새로운 UIManager 구조</sub>
 
 - 소유권 중앙화: 하위 UI 소유와 생명주기 관리를 UIManager로 이동

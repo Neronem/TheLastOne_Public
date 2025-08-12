@@ -1,4 +1,4 @@
-# 🔧 TimeScale 변형 시 캐릭터 속도 증가 버그
+# 🔧 Build시 프리팹의 Material 오류
 
 ## 목차
 
@@ -52,7 +52,7 @@
 <a name="solve"></a>
 ## 💡 해결 방법
 
-![img_4.png](img_4.png)
+![img_4.png](img_4.png) <br>
 <sub>공용은 Common Group</sub>
 
 - 공용으로 쓰이는 프리팹들은 Common Group으로 묶어 Common 라벨로 지정

@@ -14,7 +14,7 @@
 <a name="overview"></a>
 ## 🌙 OverView
 
-![img.png](img.png)
+![img.png](img.png) <br>
 <sub>카메라 위치와 관계없이 무조건 보이도록 하는것이 Stencil Renderer입니다.</sub>
 
 현 페이지에선 Instinct 시스템을 구현하던 중 생긴 문제인 <br>
@@ -53,7 +53,7 @@
 <a name="solve"></a>
 ## 💡 해결 방법
 
-![img_1.png](img_1.png)
+![img_1.png](img_1.png) <br>
 <sub>Dynamic Occlusion 옵션</sub>
 
 1. **Mesh Renderer** 설정 열기
