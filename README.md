@@ -56,19 +56,13 @@
 
 
 [<img width="400" alt="FSM" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%201_Dev%20Environment.md)
-[<img width="400" alt="ObjectPool" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/e487bad4-5732-466d-a243-8fa41a8c9dd0">](/MainTechnique%20사용%20기술/02%20Object%20Pool을%20통한%20객체%20재활용으로%20CPU%20오버헤드%20줄이기.md)
+[<img width="400" alt="ObjectPool" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_%EC%B5%9C%EC%A0%81%ED%99%94.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%202_Optimization.md)
 
-[<img width="400" alt="UIManager" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/ef4ca212-75c6-467a-887a-1f408b9d4066">](/MainTechnique%20사용%20기술/03%20Singleton과%20Generic을%20활용한%20UIManager.md)
-[<img width="400" alt="MVC" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/d763e7fd-250a-47b8-ba4d-fbea573e3b4f">](/MainTechnique%20사용%20기술/04%20MVC를%20응용한%20확장성%20있는%20Inventory%20구현.md)
+[<img width="400" alt="UIManager" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%203_Tech%20of%20Player.md)
+[<img width="400" alt="MVC" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_AI.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%204_Tech%20of%20Npc.md)
 
-[<img width="400" alt="InputSystem" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/bc7a2294-afec-4ef1-81ec-b3af1cee9a40">](/MainTechnique%20사용%20기술/05%20크로스%20플랫폼%20대응을%20위한%20New%20InputSystem.md)
-[<img width="400" alt="IMGUI" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/b371aa53-9e44-473d-9311-d030db55bfee">](/MainTechnique%20사용%20기술/06%20빠른%20개발과%20테스트를%20위해%20IMGUI를%20활용하여%20구현한%20Data%20Cheater.md)
-
-[<img width="400" alt="Observer" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/f134567d-c1b6-4a90-8c82-5c42c99ab041">](/MainTechnique%20사용%20기술/07%20다양한%20데이터%20관리를%20위해%20Observer%20Pattern을%20활용한%20DataManager.md)
-[<img width="400" alt="Interface" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/51c13b77-131d-4e63-b31f-709a1a0d24aa">](/MainTechnique%20사용%20기술/08%20Interface를%20통한%20다형성%20활용으로%20구현한%20주방%20기구.md)
-
-[<img width="400" alt="Firebase" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/0a491206-3829-4f0f-8a20-8a36c7b051d5">](/MainTechnique%20사용%20기술/09%20게임%20플레이%20데이터%20수집을%20위한%20Firebase%20Analytics%20사용.md)
-[<img width="400" alt="ScreenResolution" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/c8568267-de8f-4786-9a09-508b5fb92816">](/MainTechnique%20사용%20기술/10%20다양한%20디바이스%20해상도에%20대응하는%20방법.md)
+[<img width="400" alt="InputSystem" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_%EB%94%94%EB%B2%84%EA%B9%85.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%205_Debug%20Window.md)
+[<img width="400" alt="IMGUI" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_%EB%8B%A4%EA%B5%AD%EC%96%B4.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Tech%20Stack%206_Localization.md)
 
 <br><br>
 
