@@ -1,4 +1,6 @@
-![img_1.png](img_1.png)
+<p align="center">
+  <img src="img_1.png" alt="img_1.png" />
+</p>
 
 <br><br>
 
