@@ -44,7 +44,7 @@
 
 #### Occlusion Culling
 
-![img.png](img.png)
+![img_5.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Images/img_5.png)
 
 카메라 시야에 들어오지 않는 오브젝트를 렌더링하지 않는 기술입니다.  
 이를 통해 GPU는 화면에 보이지 않는 객체를 처리하지 않아도 되어 성능이 크게 향상됩니다.
@@ -55,7 +55,7 @@
 
 #### LOD Group
 
-![img_3.png](img_3.png)
+![img_3.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Images/img_3.png)
 
 오브젝트와 카메라 거리별로 디테일 수준(LOD)을 자동으로 조절하는 기능입니다.  
 가까운 오브젝트는 고해상도 모델로 표시되고, 멀리 있는 오브젝트는 저해상도 모델로 대체되어 렌더링 부하를 줄입니다.
@@ -66,7 +66,7 @@
 
 #### Static Batching
 
-![img_1.png](img_1.png)
+![img_1.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Images/img_1.png)
 
 정적인(움직이지 않는) 오브젝트들을 하나의 배치로 묶어 한 번의 Draw Call로 처리하는 방법입니다.  
 정적 배칭을 활용하면 GPU가 처리해야 할 렌더링 호출 횟수를 크게 줄일 수 있어,  
@@ -76,7 +76,7 @@
 
 #### Reflection Probe
 
-![img_2.png](img_2.png)
+![img_2.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Images/img_2.png)
 
 씬 내의 환경 반사를 캡처해 저장 한 뒤, 반사를 적용시키는 기술입니다. <br>
 실시간으로 모든 환경 반사를 계산하는 비용을 줄일 수 있습니다.
@@ -85,7 +85,7 @@
 
 #### Light Baking
 
-![img_4.png](img_4.png)
+![img_4.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Tech%20Stack/Images/img_4.png)
 
 씬 내의 조명을 미리 계산하여 텍스처로 저장 후, 조명을 적용시키는 기술입니다. <br>
 실시간으로 복잡한 조명 계산을 하지 않고, 미리 계산된 조명 정보를 불러와서 씬을 빠르게 렌더링할 수 있습니다.
