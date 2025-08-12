@@ -118,3 +118,28 @@
 [🌙 목차로 돌아가기](#목차)
 
 <br><br>
+
+---
+
+<br><br>
+
+<a name="introduce"></a>
+# 🧑‍🤝‍🧑 팀원 소개
+<br>
+
+| 이름     | 역할              | GitHub                              | Vlog                                         |
+|----------|-------------------|-----------------------------------|----------------------------------------------|
+| 김흥식   | 👑 Lead Designer   | [KImKs68](https://github.com/KImKs68)           | [Vlog](https://velog.io/@gmdtlr376/posts)    |
+| 최용선   | 🖌️ Designer       | [choiyongseon](http://github.com/choiyongseon)  | [Vlog](https://velog.io/@147cc/posts)        |
+| 방은성   | 👑 Lead Developer | [Bangeunseong](https://github.com/Bangeunseong) | [Vlog](https://velog.io/@bangeunseong/posts) |
+| 송규민   | 👑 Sub Lead Developer | [Neronem](https://github.com/Neronem)           | [Vlog](https://velog.io/@duckb3e/posts)      |
+| 한예준   | 🫅 Developer      | [yj6662](https://github.com/yj6662)             | [Vlog](https://velog.io/@yj6662/posts)       |
+
+<br><br>
+
+[🌙 목차로 돌아가기](#목차)
+
+<br><br>
+
+---
+
