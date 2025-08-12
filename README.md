@@ -98,22 +98,15 @@
 
 <br><br>
 
-## :carrot: 만든 사람들
-<img width="450" alt="동균" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/82ad62eb-133e-4fd9-a348-6c75932cbb18">
-<a href="https://github.com/shehdrbs123"><img width="60" alt="blog_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/e7158b4e-64e8-4d39-af45-76f4b8317d57"></a>
-<a href="https://blog.naver.com/shehdrbs123"><img width="60" alt="github_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/0fd85cf5-3443-40eb-b6ca-5f15a933e045"></a>
+<a name="trouble"></a>
+# 💡 트러블 슈팅
+#### 클릭하면 자세한 내용을 확인하실 수 있습니다!
 
-<img width="450" alt="정민" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/d40d2843-bf1f-4daa-946e-2a7cab38a6af">
-<a href="https://github.com/j-miiin"><img width="60" alt="blog_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/e7158b4e-64e8-4d39-af45-76f4b8317d57"></a>
-<a href="https://velog.io/@lazypotato"><img width="60" alt="github_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/0fd85cf5-3443-40eb-b6ca-5f15a933e045"></a>
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
 
-<img width="450" alt="희원" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/0e513fec-ddbb-43b5-8a23-ce08b1dba52f">
-<a href="https://github.com/phw97123"><img width="60" alt="blog_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/e7158b4e-64e8-4d39-af45-76f4b8317d57"></a>
-<a href="https://hwon-note.tistory.com/"><img width="60" alt="github_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/0fd85cf5-3443-40eb-b6ca-5f15a933e045"></a>
-
-<img width="450" alt="현지" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/aa285fdb-8c61-4189-91d4-47e405f97a1c">
-<a href="https://github.com/szlovelee"><img width="60" alt="blog_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/e7158b4e-64e8-4d39-af45-76f4b8317d57"></a>
-<a href="https://szloveleesz.tistory.com/"><img width="60" alt="github_icon_btn" src="https://github.com/TodangTodang/TodangTodangPublic/assets/62470991/0fd85cf5-3443-40eb-b6ca-5f15a933e045"></a>
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
+[<img width="400" alt="Inventory" src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/client_5.png">](https://github.com/Neronem/TheLastOne_Public/blob/main/Game%20Client%20Architecture/Client%20Architecture%201_Game%20Flow.md)
 
 
 <br><br>
