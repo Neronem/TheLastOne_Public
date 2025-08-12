@@ -8,12 +8,18 @@
 
 ---
 
+<br>
+
 <a name="overview"></a>
 ## 🌙 OverView
 
 현 페이지에선 플레이어를 구현하기 위해 적용된 기술 스택을 소개합니다.
 
+<br>
+
 ---
+
+<br>
 
 <a name="fsm"></a>
 ## 🤖 FSM (Finite State Machine)
@@ -58,5 +64,7 @@ FSM은 플레이어 행동을 여러 상태(State)로 나누고,
 | On (Jump, Run, Crouch) Started | 유저의 키 입력을 받아 각자의 역할에 맞게 점프, 뛰기, 앉기를 수행하는 함수입니다.  |
 | On (Aim, Fire) Started | 유저의 키 입력을 받아 조준하거나 총을 발사하는 기능을 수행하는 함수입니다. |
 | OnSwitch (ToMain, ToSecondary, ToGrenade, ToHackGun, ByScroll) | 주 무기, 보조 무기, 유탄기, 해킹건과 같이 무기를 교체하는 함수로 키 입력을 받을 시 수행합니다. |
+
+<br>
 
 ---
