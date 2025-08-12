@@ -1,3 +1,5 @@
+<br><br>
+
 <p align="center">
   <img src="https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_TheLastOne.png" alt="img_TheLastOne.png" />
 </p>
@@ -5,7 +7,7 @@
 <br><br>
 
 <a name="목차"></a>
-## 🌙 목차
+## 목차
 
 |     [🤖  프로젝트 소개 🤖](#project)      |
 |:-----------------------------------:|
