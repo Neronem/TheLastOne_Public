@@ -1,5 +1,5 @@
 # TheLastOne
-![ddddd.png](../../../ddddd.png)
+![img.png](img.png)
 
 <br><br>
 
@@ -29,12 +29,7 @@
 <br><br>
 
 ### ⚠️ AI에게 지배당한 세상에서 깨어난 마지막 인간이 되어보세요.
-
-![img](https://www.notion.so/image/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F1385164142289092653%2F1402823709093265650%2F-_Clipchamp_1.gif%3Fex%3D6896a263%26is%3D689550e3%26hm%3D8b15c00455cfd9858b5adc884e574c48d7cf345a71a9a8a20e24c1b381cdfa92%26%3D?table=block&id=2492dc3e-f514-8047-a4d5-fb43fdbd3001&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&userId=1ced872b-594c-8135-b592-0002cf504bf2&cache=v2)
-
-<br>
-
-![img_1.png](img_1.png)
+![img_1.png](https://github.com/Neronem/TheLastOne_Public/blob/main/Images/img_1.png)
 
 | 게임명 |      The Last One       |
 | :---: |:-----------------------:|
